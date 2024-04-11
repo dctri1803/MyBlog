@@ -1,0 +1,122 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+    .place-buy-btn {
+        border: none;
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        padding: 14.8px 19.8px;
+        margin-top: 15px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+    }
+    .contact-content .form-submit-btn {
+        color: #fff;
+        background: #000;
+        float: right;
+        font-size: 15px;
+        padding: 15.2px 15px;
+        border: none;
+        cursor: pointer;
+    }
+    .contact-content .form-control {
+        padding: 15.2px 10px;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .contact-infor {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin-right: 8px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width:740px) {
+    /*Common */
+    .s-col-full {
+        width: 100%;
+    }
+    .mt-8-mb {
+        margin-top: 8px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    .search-btn {
+        display: none;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 7px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-mobile-btn { 
+        display: block;
+    }
+
+    #content .members-list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #content .member-item {
+        padding: 34px 0;
+    }
+
+    #contact .contact-content i {
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+
+    .contact-content .form-submit-btn {
+        color: #fff;
+        background: #000;
+        /* float: right; */
+        /* font-size: 15px; */
+        padding: 9px 15px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }   
+    #footer .copyright {
+        margin: 0;
+    }
+    #footer .copyright a {        
+        display: inline-block;
+        padding: 12.2px 0;        
+    }
+    
+}
